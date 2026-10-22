@@ -1,0 +1,32 @@
+body {
+
+
+        background-color:#332E3C;
+
+        margin: 2em;
+        font-family:  Helvetica,Arial, sans-serif;
+
+}
+
+h1 {
+    
+    color: #332E3C;
+    
+}
+
+
+.header {
+
+    display: flex; /*ovo omogucuje da je sve lijepo jedno iza drugog*/
+    background-color: #D8D4F2;
+   
+
+}
+
+
+.box   {
+     
+
+
+}
+
