@@ -1,0 +1,195 @@
+body {
+
+
+        background-color:#121212;
+        font-family:  Helvetica,Arial, sans-serif;
+        
+
+}
+
+hr.hrAlbum{
+
+   border: none;
+   height: 2.5px;
+   background-color: #1db954;
+}
+
+
+h1 {
+    
+    color: #b3b3b3;
+    margin: 0;
+    padding: 0;;
+}
+
+
+h2 {
+
+    color: #1db954;
+}
+
+h3 {
+
+    margin: 5px;
+}
+
+h4   {
+
+    margin: 5px;
+    
+}
+
+.header {
+
+    display: flex; /*ovo omogucuje da je sve lijepo jedno iza drugog*/
+    background-color:#212121;
+    height: 70px;
+    align-content: center;
+    margin: 10px;
+}
+
+
+.box   {
+     
+    background-color: #212121;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+
+.mainContent {          /*TU BI TREBALO BITI VISE BLOKOVA PO TIPU */
+
+    display: inline-flexbox;        /*ovo mora bit inline da album blokovi jedni za drugim budu in the same line*/
+    background-color: #212121;
+    padding: 20px;
+    margin: 10px;
+}
+
+.albumBlock {           /*u ovome je slika, izvodac, naziv i godina*/
+
+display:inline-block;       /*albumi idu jedni za drugim ali ide slika, onda ispod nje izvodac, ispod naziv itd*/
+width: 200px;
+height: 300px;
+padding: 20px;
+
+
+
+}
+
+
+.albumCover {           /*posebni dio za sliku  */
+
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+
+.albumCover img {           /*formatiranje za sliku, da se formatira cijela na ekranu, ne da ju croppa*/
+    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.artist {
+
+color: #b3b3b3;
+
+}
+
+.albumName {
+
+color: #b3b3b3;
+}
+
+.year {
+
+color: #b3b3b3;
+}
+
+
+.albumBlock:hover{
+    background-color: #121212;
+}
+
+
+
+.albumCoverBig {
+
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    
+
+}
+
+.albumCoverBig img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.headline {
+    margin-bottom: 20px;
+
+}
+
+.infoTab {
+
+    flex: 1;
+    flex-direction: column;
+    background-color: #121212;
+    padding: 20px;
+
+}
+
+.infoRow {
+
+    font-family: Helvetica, Arial, sans-serif;
+    color: #b3b3b3;
+    font-size: 1.5em;
+    padding: 5px;
+
+}
+
+.secondRow {
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+
+}
+
+
+.albumTabLink,              /*ovo je dodatno da link na drugu stranicu na svakom albumu nema nikakve plave liniije ni nista slicno*/
+.albumTabLink:visited,
+.albumTabLink:hover,
+.albumTabLink:active {
+
+color:inherit;
+text-decoration: none;
+}
+
+
+
+.spotifyButton {
+
+    height: 50px;
+    width: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
+    
+
+
+}
+
+.spotifyButton img {
+
+    width: 100%;
+    height: 100%;
+}

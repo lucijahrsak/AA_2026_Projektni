@@ -1,0 +1,92 @@
+[
+
+{
+  "id": 1,
+  "albumName": "Trench",
+  "artist": "twenty one pilots",
+  "image": "https://coverartarchive.org/release-group/b2460e22-8948-441a-b894-f031b57d4231/front",
+  "genres": [
+    "Alt-Pop",
+    "Indie Pop",
+    "Alternative Rock"
+  ],
+  "releaseDate": "2018-10-05",
+  "vibes": [
+    "Melancholic",
+    "Atmospheric",
+    "Dystopian"
+  ],
+  "producer": "Tyler Joseph"
+  
+},
+ 
+{
+  "id": 2,
+  "albumName": "Breach",
+  "artist": "twenty one pilots",
+  "image": "https://coverartarchive.org/release-group/7d1a547f-e58e-4601-b682-300e39a4aa18/front",
+  "genres": [
+    "Alt-Pop",
+    "Indie Rock",
+    "Alternative Rock"
+  ],
+  "releaseDate": "2025-09-12",
+  "vibes": [
+    "Anxious",
+    "Passionate",
+    "Anthemic"
+  ],
+  "producer":"Tyler Joseph"
+},
+
+{
+  "id": 3,
+  "albumName": "Regional at Best",
+  "artist": "twenty one pilots",
+  "image": "https://coverartarchive.org/release-group/c64314d9-f071-4632-bd96-af53730ef0d0/front",
+  "genres": [
+    "Pop Rap",
+    "Indie Pop",
+    "Indietronica"
+  ],
+  "releaseDate": "2011-07-08",
+  "vibes": [
+    "Anxious",
+    "Passionate",
+    "Energetic"
+  ],
+  "producer":"Tyler Joseph"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
